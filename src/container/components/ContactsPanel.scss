@@ -1,0 +1,42 @@
+.contact-heading{
+    margin-top: 55px;
+    font-weight: bold ;
+    font-size: 30px;
+}
+
+.contact-icon{
+    color: #ffc3a0 
+}
+
+.search-div{
+    position: absolute;
+}
+
+.search-icon {
+   margin-left: -25px;
+   color: rgb(48, 41, 41)
+}
+
+.input-search{
+
+    @media only screen and (max-width: 600px) {
+        max-width: 40%;
+    }
+
+    background-color: rgb(238, 235, 235);
+    border-radius: 10px;
+    max-width: 47%;
+    border:rgb(217, 213, 213);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    appearance: none;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.add-modal{
+    padding-left: 0 !important;
+    backdrop-filter: contrast(0.5);
+}

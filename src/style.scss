@@ -1,0 +1,16 @@
+
+/*********************************************/
+/*          CUSTOMIZED DEFAULTS         */
+/*********************************************/
+ 
+$gradient: linear-gradient(90deg, #ffc3a0 0%, #ffafbd 100%);
+$black: #0000;
+
+@mixin gradient-y($start-color, $end-color, $start-percent, $end-percent) {
+    background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent);
+  }
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+

@@ -1,0 +1,48 @@
+//Variables
+$black: #0000;
+
+//Styles
+
+.container-fluid{
+    padding-left: 0;
+}
+
+.list-icon{
+    border-color: none
+}
+
+.icon-color{
+  color: #fff;
+
+  :hover{
+      color: #000;
+  }
+}
+.col-padding{
+    padding-right: 10px !important;
+    margin-right: 0 !important;
+}
+
+.nav-link:active{
+background-color: none;
+}
+
+.contact-border{
+@media only screen and (max-width: 600px) {
+    border-top: solid #fff 3px
+}
+@media only screen and (min-width: 600px) {
+    border-left: solid #fff 3px
+}
+@media only screen and (min-width: 768px) {
+    border-left: solid #fff 3px
+}
+@media only screen and (min-width: 992px) {
+    border-left: solid #fff 3px
+}
+@media only screen and (min-width: 1200px) {
+    border-left: solid #fff 3px
+}
+    
+}
+
